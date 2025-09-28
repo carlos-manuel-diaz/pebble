@@ -5,7 +5,7 @@ import { CreateInvoice } from '@/app/ui/invoices/buttons';
 import { audiowide, lusitana } from '@/app/ui/fonts';
 import { Suspense } from 'react';
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
-import { fetchInvoicesPages } from '@/app/lib/data';
+import { fetchInvoicesPages } from '@/app/lib/old/data';
 import { Audiowide } from 'next/font/google';
 
  

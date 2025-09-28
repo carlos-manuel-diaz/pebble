@@ -1,4 +1,4 @@
-import { CustomerField } from '@/app/lib/definitions';
+import { CustomerField } from '@/app/lib/old/definitions';
 import Link from 'next/link';
 import {
   CheckIcon,
@@ -7,7 +7,7 @@ import {
   UserCircleIcon,
 } from '@heroicons/react/24/outline';
 import { Button } from '@/app/ui/button';
-import { createInvoice } from '@/app/lib/actions';
+import { createInvoice } from '@/app/lib/old/actions';
 
 export default function Form({ customers }: { customers: CustomerField[] }) {
   return (

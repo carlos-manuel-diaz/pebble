@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/lib/placeholder-data.ts",
+    "app/lib/placeholder-data-task.ts",
     "scripts/seed.js"
   ],
   "exclude": [
